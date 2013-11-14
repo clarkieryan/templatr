@@ -28,8 +28,8 @@ $templatr->render('test');
 ### Passing variables to be ouputted
 
 To pass parameters to a template simply assign a variable
-PHP
-```
+
+```PHP
 $templatr->data = "Content";
 //Then inside the template file
 $this->data
