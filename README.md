@@ -9,7 +9,7 @@ Templatr is a simple template engine for PHP, at the moment it's very simple and
 
 First create a new templatr object;
 
-```
+```PHP
 $templatr = new templatr("Template Directory", "Template Format", "Base Path");
 ```
 
@@ -17,7 +17,7 @@ $templatr = new templatr("Template Directory", "Template Format", "Base Path");
 
 To render a page we simply use the render() function
 
-```
+```PHP
 //We can render a template dependant on the current URI
 $templatr->render()
 
@@ -28,7 +28,7 @@ $templatr->render('test');
 ### Passing variables to be ouputted
 
 To pass parameters to a template simply assign a variable
-
+PHP
 ```
 $templatr->data = "Content";
 //Then inside the template file
